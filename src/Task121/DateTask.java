@@ -1,4 +1,5 @@
 package Task121;
+
 public class DateTask {
    // instance variables
 private byte day;
@@ -37,7 +38,7 @@ public static void leapYears() {
     }
 }
 public byte getDay() {
-    return this.day;
+    return day;
 }
 public byte setDay(int day) {
     if (valid(day, month, year)) {
@@ -48,7 +49,7 @@ public byte setDay(int day) {
     return this.day;
 }
 public byte getMonth() {
-    return this.month;
+    return month;
 }
 public byte setMonth(int month) {
     if (valid(day, month, year)) {
@@ -60,7 +61,7 @@ public byte setMonth(int month) {
     return this.month;
 }
 public short getYear() {
-    return this.year;
+    return year;
 }
 public short setYear(int year) {
     if (valid(day, month, year)) {
